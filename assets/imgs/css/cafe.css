@@ -1,0 +1,110 @@
+* {
+    margin : 0;
+    padding : 0;
+    list-style : none ;
+    text-decoration : none;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+}
+.header_img {
+    background-image: url("../header-bg.jpg.webp");
+    height: 100vh;
+    width: 1799px;
+}
+#header {
+    padding: 14px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    z-index: 997;
+}
+header ul li {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    margin-top: 40px;
+    margin-left: 293px;
+}
+.now_you {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 175px;
+    padding-left: 300px;
+}
+.start_your {
+    padding-top: 30px;
+    font-size: 40px;
+    width: 590px;
+    font-family: "Poppins", sans-serif;
+}
+.buy_now {
+    border-radius: 50px;
+    width: 170px;
+    height: 40px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.buy_now:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    transition: 0.5;
+}
+.mon_fri {
+    color: #fff;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.two_th_video {
+    margin-top: 50px;
+    margin-left: 293px;
+}
+.what_kind{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+   font-size: 37px;
+}
+.who_are {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #77777783;
+}
+.frame {
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    font-size: 22px;
+    border-radius: 6px;
+    padding: 22px 22px;
+    color: #222222;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.price{
+    color: #b68834;
+    display: inline-block;
+}
+.usage {
+    font-size: 20px;
+    width: 100px;
+}
+
+   
+   

@@ -59,9 +59,15 @@ header ul li {
     color: #fff;
     transition: 0.5;
 }
+.home {
+    display: flex;
+    justify-content: end;
+}
 .mon_fri {
     color: #fff;
     width: 500px;
+    display: flex;
+    justify-content: end;
     font-family: 'Poppins', sans-serif;
 }
 .two_th_video {

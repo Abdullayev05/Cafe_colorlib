@@ -18,12 +18,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.sssss {
+.words {
     display: flex;
     justify-content: space-between;
 }
 #header {
-    /* background-color: #bbb4b44b; */
+    background-color: #0e0101a1;
     height: 88px;
     padding: 14px;
     position: fixed;
@@ -55,15 +55,13 @@ header ul li {
 .buy_now {
     border-radius: 50px;
     width: 170px;
-    height: 40px;
+    height: 45px;
     border: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin-top: 25px;
     color: black;
-}
-.pages {
-    color: white;
+    background-color: white;
 }
 .buy_now:hover {
     font-family: 'Poppins', sans-serif;
@@ -72,6 +70,9 @@ header ul li {
     color: #fff;
     transition: 0.4s;
 }
+.pages {
+    color: white;
+}
 .ul_li {
     color: white;
 }
@@ -79,8 +80,8 @@ header ul li {
     font-size: 14px;
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
     display: flex;
+    gap: 20px;
 }
 .mon_fri {
     color: #ffffff;
@@ -133,11 +134,15 @@ header ul li {
     width: 1500px;
     
 }
+.cap {
+    display: flex;
+    justify-content: space-between;
+}
 .frame {
     height: 150px;
     width: 400px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 20px;
     display: inline-block;
 }
@@ -146,22 +151,24 @@ header ul li {
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
     color: #222222;
-   
+    margin: 30px;
 }
 .price{
     color: #b68834;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: flex-end;
     font-family: 'Poppins', sans-serif;
 
 }
 .usage {
-    font-size: 20px;
+    font-size: 17px;
     width: 100px;
     font-family: 'Poppins', sans-serif;
-    
+    color: #222222;
 }
 .what_kind{
-   display: flex;
+    display: flex;
    justify-content: center;
    align-items: center;
    padding-top: 70px;
@@ -169,19 +176,30 @@ header ul li {
    font-family: 'Poppins', sans-serif;
    font-size: 37px;
 }
-.img_five {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-}
 .who_are {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     color: #777777d5;
+}
+.img_five {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
+.one_th_row {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.two_th_row {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .middle_color {
     background-color: #b68834;
@@ -205,4 +223,90 @@ header ul li {
     font-family: 'Poppins', sans-serif;
 }
    
-   
+.sssss {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.kind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+}
+.are {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+.travel {
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    border: 0;
+    color: black;
+    border: 1px solid rgb(206, 206, 206);
+}
+.travel:hover {
+    background-color:#b68834;
+    color: #ffffff;
+    transition: 0.5s;
+} 
+.coffee_img {
+    margin-top: 80px;
+}
+.alls_two {
+    
+}
+.buttns {
+    margin-top: 20px;
+}
+.life_style {
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    border: 0;
+    color: black;
+    border: 1px solid rgb(206, 206, 206);
+}
+.life_style:hover {
+    background-color:#b68834;
+    color: #ffffff;
+}
+.portable {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+}
+.ipsum {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #817e7e;
+    width: 600px;
+    margin-top: 20px;
+}
+.january {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.footer_img {
+    background-image: url("../footer-bg.jpg.webp");
+    width: 1920px;
+    height: 500px;
+}
+.footer_ul {
+    display: flex;
+    justify-content: space-between;
+}

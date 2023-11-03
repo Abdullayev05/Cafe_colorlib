@@ -9,7 +9,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    max-width: 1210px;
+    max-width: 1140px;
 }
 .header_img {
     background-image: url("../header-bg.jpg.webp");
@@ -96,7 +96,11 @@ header ul li {
 }
 .right_section {
     display: flex;
-    
+}
+.word {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 .live_coffee {
     color: #b68834;
@@ -131,7 +135,7 @@ header ul li {
 }
 .middle_frame {
     margin-top: 100px;
-    width: 1500px;
+    /* width: 1000px; */
     
 }
 .cap {
@@ -155,7 +159,6 @@ header ul li {
 }
 .price{
     color: #b68834;
-    /* display: inline-block; */
     display: flex;
     justify-content: flex-end;
     font-family: 'Poppins', sans-serif;
@@ -191,13 +194,13 @@ header ul li {
 }
 .one_th_row {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     padding-right: 15px;
     padding-left: 15px;
 }
 .two_th_row {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -303,10 +306,13 @@ header ul li {
 }
 .footer_img {
     background-image: url("../footer-bg.jpg.webp");
-    width: 1920px;
+    /* width: 1920px; */
     height: 500px;
+    background-size: cover;
 }
 .footer_ul {
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
 }

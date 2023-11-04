@@ -10,7 +10,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1205px;
 }
 .header_img {
     background-image: url("../header-bg.jpg.webp");
@@ -89,13 +89,47 @@ header ul li {
     font-size: 15px;
     justify-content: flex-end;
 }
+#second_section .container {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
 #two_th_video {
     margin-top: 50px;
+    position: relative;
+    background-color: #222222;
+}
+#two_th_video::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.78);
+    z-index: 2;
+}
+.img-fluid {
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#two_th_video > img {
+    width: 100%;
+    height: 100%;
+}
+.play-btn {
+    position: absolute;
+    top: 140px;
+    left: 250px;
 }
 #text {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 .live_coffee {
     color: #b68834;
@@ -125,13 +159,13 @@ header ul li {
 .middle_frame {
     margin-top: 100px; 
     width: 1400px;
-}
-.cap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
 }
 .frame {
-    height: 150px;
+    height: 170px;
     width: 400px;
     background-color: white;
     border-radius: 8px;
@@ -146,14 +180,18 @@ header ul li {
 }
 .price{
     color: #b68834;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.top {
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: space-between;
 }
 .usage {
-    font-size: 17px;
-    width: 100px;
-    color: #222222;
+    font-size: 15px;
+    color: #a8a8a8;
+    margin-left: 30px;
 }
 .what_kind{
     display: flex;

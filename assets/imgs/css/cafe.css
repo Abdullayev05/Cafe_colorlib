@@ -219,9 +219,10 @@ header ul li {
 .two_th_row {
     position: relative;
 }
+
 .middle_color {
     background-color: #b68834;
-    height: 700px;
+    height: 800px;
     margin-top: 150px;
 }
 .what {
@@ -237,15 +238,57 @@ header ul li {
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    font-weight: 300;
 }
-   
-.sssss {
+.mid_img {
     justify-content: center;
     display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    padding-top: 100px;
+    display: block;
 }
-
-
-
+.image {
+    width: 100px;
+    height: 20px;
+}
+.fffff {
+    display: inline-block;
+    line-height: 10px;
+}
+.lorem_ipsum {
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 22px;
+}
+.accessories {
+    width: 620px;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.midd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reqem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    gap: 235px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+    user-select: none;
+}
+.fff {
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+}
 
 .kind {
     display: flex;
@@ -259,7 +302,18 @@ header ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-   color: #222222;
+    color: #222222;
+}
+.divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.have {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 150px;
 }
 .travel {
     background-color: white;
@@ -319,8 +373,46 @@ header ul li {
     background-size: cover;
 }
 .footer_ul {
-    text-align: center;
     display: flex;
     justify-content: center;
     gap: 100px;
+    color: #fff;
+    margin-top: 150px;
+}
+.dolor {
+    padding-top: 30px;
+    width: 560px;
+    font-weight: 300;
+}
+.copyright {
+    margin-top: 60px;
+    font-weight: 300;
+    width: 500px;
+}
+.stay {
+    padding-top: 30px;
+    display: block;
+    font-weight: 300;
+}
+#enter {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.let {
+    display: block;
+    font-weight: 300;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.colorl {
+    color: #b68834;
+}
+.insta {
+    width: 15px;
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
 }

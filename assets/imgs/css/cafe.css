@@ -85,8 +85,10 @@ header ul li {
 .mon_fri {
     color: #ffffff;
     gap: 20px;
+    font-weight: 200;
     display: flex;
     font-size: 15px;
+    padding-right: 40px;
     justify-content: flex-end;
 }
 #second_section .container {
@@ -101,13 +103,13 @@ header ul li {
 }
 #two_th_video::after {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.78);
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.78);
+    position: absolute;
     z-index: 2;
 }
 .img-fluid {
@@ -166,7 +168,7 @@ header ul li {
 }
 .frame {
     height: 170px;
-    width: 400px;
+    width: 370px;
     background-color: white;
     border-radius: 8px;
     margin: 20px;
@@ -190,8 +192,9 @@ header ul li {
 }
 .usage {
     font-size: 15px;
-    color: #a8a8a8;
+    color: #6d6b6b;
     margin-left: 30px;
+    font-weight: 300;
 }
 .what_kind{
     display: flex;
@@ -205,21 +208,34 @@ header ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #777777d5;
+    color: #474747d5;
+    font-weight: 300;
 }
 .img_five {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     margin-top: 80px;
 }
 .one_th_row {
     position: relative;
+    width: 300px;
+    margin-left: 25px;
+}
+.two {
+    margin-top: 15px;
+}
+.four {
+    margin-top: 15px;
+}
+.five {
+    margin-left: 25px;
 }
 .two_th_row {
     position: relative;
+    width: 800px;
+    margin-left: 30px;
 }
-
 .middle_color {
     background-color: #b68834;
     height: 800px;
@@ -312,7 +328,7 @@ header ul li {
 .have {
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    align-items: flex-end;
     margin-top: 150px;
 }
 .travel {
